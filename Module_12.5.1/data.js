@@ -29,7 +29,7 @@ var data = [{
 {
   greekName: "Artemis",
   greekSearchResults: 10200000,
-  pair: "Artemis-Diana",
+  pair: "Artemis-Diana", 
   romanName: "Diana",
   romanSearchResults: 15800000
 },
