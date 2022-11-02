@@ -1,0 +1,17 @@
+.jumbotron {
+    background-image: url("images/MicroBact.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: #f7f7f7;
+    font-family: "Times New Roman", Times, serif;
+  }
+  body {
+    color: #035efc;
+    background-color: azure;
+    font-family: "Times New Roman", Times, serif;
+
+  }
+  .container {
+    color: #035efc;
+    font-family: "Times New Roman", Times, serif;
+  }
