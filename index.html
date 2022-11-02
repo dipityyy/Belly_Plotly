@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellybutton Biodiversity</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+</head>
+<body style="background-color: 	darkcyan">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center"
+            style="background-image: url('https://www.foodservicedirect.com/media/catalog/product/0/0/00816697020111_ifql1vjnjtr1rudl.jpg?width=1200&height=1https://www.foodservicedirect.com/media/catalog/product/0/0/00816697020111_ifql1vjnjtr1rudl.jpg?width=1200&height=1200&quality=85&fit=bounds');
+            background-size: cover; background-position: center; color: black">
+                <h1 style="background-color: white"> Belly Button Biodiversity Dashboard</h1>
+                <p style="background-color: white">Use the interactive charts below to explore the dataset.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h4 style="color: white">This page documents bacteria found in subjects' belly buttons in order to hopefully <br> discover bacteria species that have the ability to synthesize proteins that taste like beef.</h4>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="well" style="background-color: 	darkslategray; border: black">
+                <h5 style="color: white">Test Subject ID No.:</h5>
+                <select id="selDataset" onchange="optionChanged(this.value)"> </select>
+            </div>
+            <div class="panel panel-info" style="border: black">
+                <div class="panel-heading" style="background-color: 	darkslategray; border: black">
+                  <h3 class="panel-title" style="color: white">Demographic Info</h3>
+                </div>
+                <div id="sample-metadata" class="panel-body" style="background-color: lightgray; color: black"></div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div id="bar"></div>
+              </div>
+              <div class="col-md-5">
+                <div id="gauge"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div id="bubble"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="charts.js"></script>
+</body>
+</html>
